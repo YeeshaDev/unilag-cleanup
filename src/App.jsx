@@ -5,6 +5,8 @@ import Community from './components/Community'
 import Header from './components/Header'
 import Quote from './components/Quote'
 import Report from './components/Report'
+import Reviews from './components/Reviews'
+import Work from './components/Work'
 import Hero from './Hero'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
     <Quote />
     <Community />
     <Report />
+    <Reviews />
+    <Work />
     </>
   )
 }

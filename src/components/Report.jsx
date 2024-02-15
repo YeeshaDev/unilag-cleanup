@@ -2,7 +2,7 @@
 export default function Report() {
   return (
    <section className="bg-[#1D1818] text-brown p-8">
-     <h1 className="text-3xl font-semibold text-white mb-5 text-center mt-10">Report </h1>
+     <h1 className="text-3xl font-semibold text-white mb-5 text-center mt-10"> Make Report </h1>
      <form action="" className="max-w-[700px] p-5 px-8 mx-auto rounded-lg bg-[#ebebeb]">
         <label htmlFor="">
             Name

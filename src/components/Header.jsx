@@ -59,7 +59,11 @@ export default function Header() {
         </Link>
       </div>
       
-            
+      <Link to="/login">
+                          <button className="rounded-lg border border-white text-white w-[125px] h-[50px] font-medium text-small">
+                           Make Report
+                          </button>
+                        </Link>    
               
               
         
@@ -150,7 +154,7 @@ export default function Header() {
                       >
                         <Link to="/login">
                           <button className="rounded-[50px] bg-menu text-white w-[125px] h-[55px] font-medium text-small">
-                            Report
+                           Make Report
                           </button>
                         </Link>
                       </motion.li>

@@ -13,7 +13,7 @@ body {
 body {
   background: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   color: #000;
   margin: 0;
   padding: 0;
@@ -92,5 +92,10 @@ position: relative;
     height: 50px;
     border-radius: 10px;
     color: black;
-    @apply w-[300px] sm:w-full
+    @apply w-full mx-auto
   }
+  br{
+    @apply hidden lg:block
+  }
+
+ 

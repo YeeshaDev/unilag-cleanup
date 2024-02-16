@@ -42,7 +42,7 @@ function Hero() {
        
       </Swiper>
       <div className=' absolute bottom-16 sm:top-[530px]!w-[150px] !h-[150px]  sm:!w-[180px] sm:!h-[180px] left-1/2 text-white text-4xl lg:text-6xl -translate-x-1/2 -translat-y-1/2  z-[10]'>
-        <img src="/images/heroindicator.png"  alt="indicator" className='w-full h-full object-cover' />
+        <img src="/images/heroindicator.png"  alt="indicator" className='w-full h-full object-contain' />
        <span className='absolute animate-bounce top-[40%] left-[40%] -translate-x-1/2 -translat-y-1/2 text-orange text-4xl'> <FaArrowDown /></span>
       </div>
         </section>

@@ -10,12 +10,12 @@ import { Pagination,Autoplay } from 'swiper/modules';
 
 export default function Reviews() {
   return (
-  <section>
-     <h1 className="text-3xl font-semibold text-black mb-5 text-center mt-10"> Your Reviews Matters </h1>
+  <section className='px-4 sm:px-0'>
+     <h1 className="text-3xl font-semibold text-black mb-5 text-center mt-10 "> Your Reviews Matters </h1>
     <article className="relative mt-10 py-10 px-3 max-w-[1200px] mx-auto gap-x-5">
 
    
-<figure className="absolute right-1 top-0 ">
+<figure className="absolute right-0 top-0 ">
     <img src="/images/borderup.svg" alt="border" className="w-[150px] " />
 </figure>
 <div>
@@ -61,11 +61,11 @@ export default function Reviews() {
         ))}
         </Swiper>
 </div>
-<figure className="absolute left-1 bottom-0 ">
+<figure className="absolute left-0 bottom-0 ">
         <img src="/images/borderdown.svg" alt="border" className="w-[150px] " />
     </figure>
 </article>
-<button className='w-[200px] h-14 border-2 rounded-lg mx-auto flex items-center justify-center text-lg mb-5 border-brown '>Drop a Review</button>
+<button className='w-[200px] mt-7 h-14 border-2 rounded-lg mx-auto flex items-center justify-center text-lg mb-5 border-brown '>Drop a Review</button>
   </section>
   )
 }

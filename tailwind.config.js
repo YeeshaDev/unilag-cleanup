@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        xsm:  {'max': '330px'},
+      },
       colors:{
         menu:'#1D1918B2',
         orange:'#F2BF00',

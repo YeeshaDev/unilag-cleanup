@@ -10,7 +10,7 @@ import { Pagination,Autoplay } from 'swiper/modules';
 
 export default function Reviews() {
   return (
-  <section className='px-4 sm:px-0'>
+  <section className='px-4 sm:px-0' id='reviews'>
      <h1 className="text-3xl font-semibold text-black mb-5 text-center mt-10 "> Your Reviews Matters </h1>
     <article className="relative mt-10 py-10 px-3 max-w-[1200px] mx-auto gap-x-5">
 

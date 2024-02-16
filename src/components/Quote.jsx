@@ -2,7 +2,7 @@
 
 export default function Quote() {
   return (
-   <section className=" relative overflow-hidden ">
+   <section id="quote" className=" relative overflow-hidden ">
     <article className="relative mt-10 py-10 max-w-[700px] mx-auto gap-x-5 ">
 
    
@@ -23,27 +23,28 @@ responsibility!`}</p>
     </figure>
     
     </article>
-    <div className='rollers absolute right-2 lg:right-32 top-[355px] sm:top-[250px] lg:top-[200px] flex items-end justify-end '>
-            <img src='/images/rollers.svg' width={150}
+    <div className='rollers absolute right-2 lg:right-32 top-[355px] sm:top-[250px] lg:top-[180px] flex items-end justify-end '>
+            <img src='/images/rollers.svg'
             alt='rollers'
+            className="w-[140px] h-[140px] lg:w-[200px] lg:h-[200px]"
             />
             <div className="absolute bg-orange w-12 h-12 top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 filter blur-xl"></div>
           </div>
     <article className="w-[80%] xl:w-full mx-auto mt-20">
     <h1 className="text-3xl font-semibold text-center mt-10">How It Works</h1>
     <div className="flex flex-col text-center xl:flex-row gap-5 justify-center mt-10">
-        <div className="bg-white shadow-xl rounded-xl py-4 px-5 flex flex-col items-center justify-center">
+        <div className="bg-[#fcfcfc] shadow-lg rounded-xl py-4 px-5 flex flex-col items-center justify-center lg:mb-5">
             <img src="/images/how1.svg" alt="how it works" className="w-[300px] h-[300px] object-cover" />
             <h2 className="text-2xl font-medium text-center">Monitor Your Environment</h2>
             <p className="text-[1.1rem] mt-3">Be environmentally vigilant by monitoring <br />any area where there is heap of dirts.</p>
         </div>
-        <div className="bg-white shadow-xl rounded-xl py-4  px-5 flex flex-col items-center justify-center">
+        <div className="bg-[#fcfcfc] shadow-lg rounded-xl py-4  px-5 flex flex-col items-center justify-center lg:mb-5">
             <img src="/images/how2.svg" alt="how it works" className="w-[300px] h-[300px] object-cover" />
             <h2 className="text-2xl font-medium">Report Any
 Dirty Area</h2>
 <p className="text-[1.1rem] mt-3  font-normal">Be environmentally vigilant by monitoring <br />any area where there is heap of dirts.</p>
         </div>
-        <div className="bg-white shadow-xl rounded-xl py-4  px-5 flex flex-col items-center justify-center">
+        <div className="bg-[#fcfcfc] shadow-lg rounded-xl py-4  px-5 flex flex-col items-center justify-center mb-5">
             <img src="/images/how3.svg" alt="how it works" className="w-[300px] h-[300px] object-cover" />
             <h2 className="text-2xl font-medium "> We Swing into Action</h2>
             <p className="text-[1.1rem] mt-3 font-normal">Be environmentally vigilant by monitoring <br />any area where there is heap of dirts.</p>

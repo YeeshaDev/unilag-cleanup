@@ -39,12 +39,18 @@ export default function Header() {
          <Link to='/about'> Home</Link></li>
        
         <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
-         <Link to='/donations'> About</Link></li>
+         <a href="#about"> About</a></li>
+         <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
+         <a href="#about"> Reviews</a></li>
+         <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
+         <a href="#works"> Works</a></li>
+         <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
+         <a href="#community"> Community</a></li>
          
       </div>
       <div className="hidden lg:flex shrink-0">
 
-        <Link to='/'>
+        <a href="#home">
         
         <img
           className="relative "
@@ -56,14 +62,14 @@ export default function Header() {
         />
       
          
-        </Link>
+        </a>
       </div>
       
-      <Link to="/login">
+      <a href="#report">
                           <button className="rounded-lg border border-white text-white w-[125px] h-[50px] font-medium text-small">
                            Make Report
                           </button>
-                        </Link>    
+                        </a>    
               
               
         
@@ -114,7 +120,7 @@ export default function Header() {
                       },
                     }}
                   >
-                    <Link to="/">Home</Link>
+                    <a href="#home">Home</a>
                   </motion.li>
                   <motion.li
                     initial={{ y: 80, opacity: 0 }}
@@ -130,7 +136,56 @@ export default function Header() {
                       },
                     }}
                   >
-                    <Link to="/donations">About</Link>
+                    <a href="#about">About</a>
+                  </motion.li>
+                  <motion.li
+                    initial={{ y: 80, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.7 }}
+                    className="text-2xl font-medium hover:text-white"
+                    exit={{
+                      opacity: 0,
+                      y: 90,
+                      transition: {
+                        ease: "easeInOut",
+                        delay: 0.8,
+                      },
+                    }}
+                  >
+                    <a href="#reviews">Reviews</a>
+                  </motion.li>
+                  <motion.li
+                    initial={{ y: 80, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.7 }}
+                    className="text-2xl font-medium hover:text-white"
+                    exit={{
+                      opacity: 0,
+                      y: 90,
+                      transition: {
+                        ease: "easeInOut",
+                        delay: 0.8,
+                      },
+                    }}
+                  >
+                    <a href="#works">Works</a>
+                  </motion.li>
+                  
+                  <motion.li
+                    initial={{ y: 80, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.7 }}
+                    className="text-2xl font-medium hover:text-white"
+                    exit={{
+                      opacity: 0,
+                      y: 90,
+                      transition: {
+                        ease: "easeInOut",
+                        delay: 0.8,
+                      },
+                    }}
+                  >
+                    <a href="#community">Community</a>
                   </motion.li>
                   
                  
@@ -152,11 +207,11 @@ export default function Header() {
                           },
                         }}
                       >
-                        <Link to="/login">
-                          <button className="rounded-[50px] bg-menu text-white w-[125px] h-[55px] font-medium text-small">
+                        <a href="#report">
+                          <button className="rounded-[30px] bg-menu text-white w-[150px] h-[55px] font-medium text-small">
                            Make Report
                           </button>
-                        </Link>
+                        </a>
                       </motion.li>
                      
                   

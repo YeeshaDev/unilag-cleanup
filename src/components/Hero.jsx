@@ -11,7 +11,7 @@ import { FaArrowDown } from 'react-icons/fa';
 
 function Hero() {
     return (
-        <section>
+        <section id='home'>
             <Swiper
         spaceBetween={30}
         effect={'fade'}
@@ -29,7 +29,7 @@ function Hero() {
             <SwiperSlide key={item?.id}>
             <div className='overlay '></div>
             <img src={item.image} />
-            <div className='absolute top-[25%] sm:top-[40%] left-1/2 text-white text-4xl lg:text-6xl -translate-x-1/2 -translat-y-1/2 z-50'>
+            <div className='absolute top-[25%] sm:top-[40%] left-1/2 text-white text-4xl xl:text-6xl -translate-x-1/2 -translat-y-1/2 z-50'>
                 <h1 className='sm:whitespace-nowrap w-[350px] sm:w-full'>A Cleaner <span className='text-orange semibold'>UNILAG</span>  Starts With  Us</h1>
                 <h2 className='my-5 '>Let’s Clean Up <span className='text-orange font-semibold'>{item?.location}
 </span></h2>
@@ -41,10 +41,12 @@ function Hero() {
         ))}
        
       </Swiper>
-      <div className=' absolute bottom-16 sm:top-[530px]!w-[150px] !h-[150px]  sm:!w-[180px] sm:!h-[180px] left-1/2 text-white text-4xl lg:text-6xl -translate-x-1/2 -translat-y-1/2  z-[10]'>
+      <a href="#quote">
+      <div className=' absolute  bottom-16 md:bottom-[150px] xl:top-[530px] !w-[150px] !h-[150px]  sm:!w-[180px] sm:!h-[180px] left-1/2 text-white text-4xl xl:text-6xl -translate-x-1/2 -translat-y-1/2  z-[10]'>
         <img src="/images/heroindicator.png"  alt="indicator" className='w-full h-full object-contain' />
        <span className='absolute animate-bounce top-[40%] left-[40%] -translate-x-1/2 -translat-y-1/2 text-orange text-4xl'> <FaArrowDown /></span>
       </div>
+      </a>
         </section>
     )
 }

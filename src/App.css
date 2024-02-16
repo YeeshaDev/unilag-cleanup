@@ -15,6 +15,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   color: #000;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
@@ -38,7 +39,7 @@ position: relative;
 .swiper-slide img{
    
   width: 100vw;
-  height: 90vh;
+  height: 95vh;
   object-fit: cover;
   }
   
@@ -52,9 +53,9 @@ position: relative;
   }
   .rollers img{
     
-    -webkit-animation:spin 5s linear infinite;
-    -moz-animation:spin 5s linear infinite;
-   animation: spin 10s linear infinite;
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+   animation: spin 8s linear infinite;
    overflow: hidden;
    -o-animation-fill-mode: forwards;
    animation-fill-mode: forwards;

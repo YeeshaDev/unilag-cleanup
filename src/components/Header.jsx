@@ -1,7 +1,7 @@
 import { AnimatePresence,motion} from "framer-motion";
 import { useEffect, useState } from "react";
 import { FaBars, FaTimes} from "react-icons/fa";
-import { Link, useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 
 export default function Header() {
   const location = useLocation();
@@ -36,12 +36,12 @@ export default function Header() {
     <div className="hidden lg:flex items-center justify-between">
     <div className=" md:flex md:items-center md:justify-center md:gap-5 nav-list">
         <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200   ">
-         <Link to='/about'> Home</Link></li>
+         <a href="#home"> Home</a></li>
        
         <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
-         <a href="#about"> About</a></li>
+         <a href="#quote"> About</a></li>
          <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
-         <a href="#about"> Reviews</a></li>
+         <a href="#reviews"> Reviews</a></li>
          <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
          <a href="#works"> Works</a></li>
          <li className="inline-block  px-2 py-1 text-sm font-medium  transition-all duration-200">
@@ -136,7 +136,7 @@ export default function Header() {
                       },
                     }}
                   >
-                    <a href="#about">About</a>
+                    <a href="#quote">About</a>
                   </motion.li>
                   <motion.li
                     initial={{ y: 80, opacity: 0 }}

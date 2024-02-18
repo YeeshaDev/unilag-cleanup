@@ -9,9 +9,18 @@ import Report from './components/Report'
 import Reviews from './components/Reviews'
 import Work from './components/Work'
 import Hero from './components/Hero'
+import { useEffect } from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
  
+  useEffect(() => {
+    Aos.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
 
   return (
     <>

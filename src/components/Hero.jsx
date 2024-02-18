@@ -11,7 +11,7 @@ import { FaArrowDown } from 'react-icons/fa';
 
 function Hero() {
     return (
-        <section id='home'>
+        <section id='home' data-aos="fade-in" data-aos-duration={800}>
             <Swiper
         spaceBetween={30}
         effect={'fade'}

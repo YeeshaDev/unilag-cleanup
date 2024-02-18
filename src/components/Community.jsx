@@ -2,7 +2,7 @@
 
 export default function Community() {
   return (
-   <section className="my-10 " id="community">
+   <section className="my-10 " id="community" data-aos="fade-in" data-aos-duration={1000}>
     <h1 className="text-3xl font-semibold text-center mt-10">Our Community</h1>
    <div className="flex flex-col-reverse xl:flex-row gap-x-10 justify-center px-2  sm:px-5 mt-10 max-w-[1300px] mx-auto">
   <div>
